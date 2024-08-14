@@ -13,12 +13,11 @@ The following scripts are meant to be run sequentially.
 # Setup
 This script setups up the directories and files for the configuration.
 ```sh
-	mkdir ~/.config/
-	mkdir ~/.config/automator/
-	mkdir ~/.config/arc/
-	mkdir ~/.config/karabiner/
-
-	touch .zprofile
+mkdir ~/.config/
+mkdir ~/.config/automator/
+mkdir ~/.config/arc/
+mkdir ~/.config/karabiner/
+touch .zprofile
 ```
 
 
@@ -38,10 +37,7 @@ This script copies the configuration file in ~/.config/arc to TBD.
 # Homebrew
 This script installs the necessary casks and formulas.
 ```sh
-	brew install karabiner-elements
-	brew install wezterm
-	brew install zed
+brew install karabiner-elements
+brew install wezterm
+brew install zed
 ```
-
-
-
