@@ -1,8 +1,9 @@
+# Introduction
 This repository is meant to add my personal configurations to a freshly installed macOS machine. 
 The following scripts are meant to be run sequentially.
 
 
-# Manual Configurations
+# Manual Installations
 - The first steps are to configure the default Apps in LaunchPad as well as install paid apps on the App Store.
 - Then configure Finder towards my personal taste.
 - Then install the following third-party applications.
@@ -10,7 +11,7 @@ The following scripts are meant to be run sequentially.
 	- [Homebrew Package Manager](https://brew.sh/)
 
 
-# Setup
+# Installation
 This script clones this repo to the home directory and removes unnecessary files.
 ```sh
 git clone https://github.com/KZapp720/Dotfiles.git ~/temp-dotfiles
@@ -25,18 +26,9 @@ rm ~/README.md
 # Automater
 This script moves the workflows in ~/.config/automator/ to ~/Library/Services/.
 ```sh
-original_dir=$(pwd)
-mv $HOME/.config/automator/*.workflow.zip $HOME/Library/Services/
-cd $HOME/Library/Services/
 
-for file in *.zip; do
-    unzip "$file" -d "${file%*.zip}"
-    rm "$file"
-done
-
-cd "$original_dir"
-rmdir $HOME/.config/automator
 ```
+
 
 # Arc
 This script copies the configuration file in ~/.config/arc to TBD.
