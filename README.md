@@ -11,13 +11,11 @@ The following scripts are meant to be run sequentially.
 
 
 # Setup
-This script setups up the directories and files for the configuration.
+This script clones this repo to the home directory and removes unnecessary files.
 ```sh
-mkdir ~/.config/
-mkdir ~/.config/automator/
-mkdir ~/.config/arc/
-mkdir ~/.config/karabiner/
-touch .zprofile
+git clone https://github.com/KZapp720/Dotfiles.git ~
+rm ~/LICENSE
+rm ~/README.md
 ```
 
 
