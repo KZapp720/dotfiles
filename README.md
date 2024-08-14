@@ -16,6 +16,7 @@ This script clones this repo to the home directory and removes unnecessary files
 git clone https://github.com/KZapp720/Dotfiles.git ~/temp-dotfiles
 rsync -avh --progress ~/temp-dotfiles/ ~
 rm -rf ~/temp-dotfiles
+rm -rf ~/.git
 rm ~/LICENSE
 rm ~/README.md
 ```
