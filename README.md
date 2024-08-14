@@ -22,9 +22,10 @@ touch .zprofile
 
 
 # Automater
-This script copies the workflows in ~/.config/automator/ to ~/Library/Services/.
+This script moves the workflows in ~/.config/automator/ to ~/Library/Services/.
 ```sh
-cp -r $HOME/.config/automator/*.workflow $HOME/Library/Services/
+mv -r $HOME/.config/automator/*.workflow $HOME/Library/Services/
+rmdir $HOME/.config/automator
 ```
 
 # Arc
