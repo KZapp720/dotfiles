@@ -25,7 +25,16 @@ rm ~/README.md
 # Automater
 This script moves the workflows in ~/.config/automator/ to ~/Library/Services/.
 ```sh
-mv -r $HOME/.config/automator/*.workflow $HOME/Library/Services/
+original_dir=$(pwd)
+mv $HOME/.config/automator/*.workflow.zip $HOME/Library/Services/
+cd $HOME/Library/Services/
+
+for file in *.zip; do
+    unzip "$file" -d "${file%*.zip}"
+    rm "$file"
+done
+
+cd "$original_dir"
 rmdir $HOME/.config/automator
 ```
 
