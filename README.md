@@ -13,7 +13,9 @@ The following scripts are meant to be run sequentially.
 # Setup
 This script clones this repo to the home directory and removes unnecessary files.
 ```sh
-git clone https://github.com/KZapp720/Dotfiles.git ~
+git clone https://github.com/KZapp720/Dotfiles.git ~/temp-dotfiles
+rsync -avh --progress ~/temp-dotfiles/ ~
+rm -rf ~/temp-dotfiles
 rm ~/LICENSE
 rm ~/README.md
 ```
