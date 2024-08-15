@@ -66,11 +66,11 @@ brew install koekeishiya/formulae/yabai
 brew install lazygit
 brew install ripgrep
 brew install rust
-brew install rust-anayzer
+brew install rust-analyzer
 brew install starship
 brew install thefuck
 brew install typst
 brew install zoxide
-brew install zsh-auto-suggestions
-brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+brew install zsh-fast-syntax-highlighting
 ```
