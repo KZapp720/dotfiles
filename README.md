@@ -54,4 +54,24 @@ This script installs the necessary casks and formulas.
 brew install karabiner-elements
 brew install wezterm
 brew install zed
+
+brew install bat
+brew install eza
+brew install entr
+brew install fzf
+brew install gh
+brew install haskell
+brew install helix
+brew install lazygit
+brew install nushell
+brew install python
+brew install ripgrep
+brew install rust
+brew install skhd
+brew install starship
+brew install typst
+brew install zoxide
+brew install zsh-auto-suggestions
+brew install zsh-syntax-highlighting
+brew install yabai
 ```
