@@ -51,6 +51,7 @@ This script copies the configuration file in ~/.config/arc to TBD.
 # Homebrew
 This script installs the necessary casks and formulas.
 ```sh
+brew install font-fira-code
 brew install karabiner-elements
 brew install wezterm
 brew install zed
