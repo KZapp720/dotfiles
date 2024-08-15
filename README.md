@@ -24,8 +24,20 @@ rm ~/README.md
 
 
 # Automater
+This script adds the zipped automator workflows to the services directory and removes all the unused files afterwards.
 ```sh
+mv "$HOME/.config/automator/"*.zip "$HOME/Library/Services/"
+rm -rf "$HOME/.config/automator/"
 
+for zip_file in "$HOME/Library/Services/"*.zip; do
+  [ -f "$zip_file" ] || continue
+  extract_dir="${zip_file%.zip}"
+  mkdir -p "$extract_dir"
+  unzip -q "$zip_file" -d "$extract_dir"
+  mv "$extract_dir"/*.workflow "$HOME/Library/Services/"
+  rm -r "$extract_dir"
+  rm "$zip_file"
+done
 ```
 
 
