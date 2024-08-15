@@ -24,12 +24,9 @@ rm ~/README.md
 
 
 # Automater
-Each script file contains the shell script to be pasted into automater.
-Currently each automation must be created manually by following these steps:
-- Open Automater and create a new Quick Action
-- Ensure the workflow receives current "files & folders" in "Finder.app"
-- Select "Run Shell Script" in the library and pass input "as arguements"
-- Paste the associated shell script into the text editor.
+```sh
+
+```
 
 
 # Arc
