@@ -70,8 +70,8 @@ brew install rust
 brew install skhd
 brew install starship
 brew install typst
+brew install yabai
 brew install zoxide
 brew install zsh-auto-suggestions
 brew install zsh-syntax-highlighting
-brew install yabai
 ```
