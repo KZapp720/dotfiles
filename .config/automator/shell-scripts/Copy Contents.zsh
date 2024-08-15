@@ -1,4 +1,5 @@
-for f in "$@" do
+for f in "$@"
+do
     if [ -f "$f" ]; then
         cat "$f"
     fi
