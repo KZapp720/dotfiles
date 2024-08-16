@@ -53,6 +53,7 @@ This script installs the necessary casks and formulas.
 ```sh
 brew install discord
 brew install karabiner-elements
+brew install mactex-no-gui
 brew install warp
 brew install wezterm
 brew install zed
@@ -64,6 +65,7 @@ brew install gh
 brew install ghc
 brew install haskell-language-server
 brew install helix
+brew install koekeishiya/formulae/skhd
 brew install koekeishiya/formulae/yabai
 brew install lazygit
 brew install ripgrep
