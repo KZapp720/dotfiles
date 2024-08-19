@@ -4,7 +4,7 @@ The following scripts are meant to be run sequentially.
 
 
 # Manual Configurations
-- Add the `⌘ b` shortcut to "Enter Full Screen" and "Exit Full Screen in `System Settings -> Keyboard -> Keyboard Shortcuts`.
+- Add the `⌘ b` shortcut to the `Enter Full Screen` and `Exit Full Screen` commands in `System Settings -> Keyboard -> Keyboard Shortcuts`.
 - Configure the default Apps in LaunchPad as well as install paid apps on the App Store.
 - Configure Finder.
 - Install the following third-party applications.
