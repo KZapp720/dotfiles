@@ -55,7 +55,6 @@ This script installs the necessary casks and formulas.
 brew install discord
 brew install karabiner-elements
 brew install mactex-no-gui
-brew install warp
 brew install wezterm
 brew install zed
 
