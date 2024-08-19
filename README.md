@@ -4,10 +4,10 @@ The following scripts are meant to be run sequentially.
 
 
 # Manual Configurations
-- Add the `Super+b` shortcut to "Enter Full Screen" and "Exit Full Screen in `System Settings -> Keyboard -> Keyboard Shortcuts`.
-- The first steps are to configure the default Apps in LaunchPad as well as install paid apps on the App Store.
-- Then configure Finder towards my personal taste.
-- Then install the following third-party applications.
+- Add the `⌘ b` shortcut to "Enter Full Screen" and "Exit Full Screen in `System Settings -> Keyboard -> Keyboard Shortcuts`.
+- Configure the default Apps in LaunchPad as well as install paid apps on the App Store.
+- Configure Finder.
+- Install the following third-party applications.
 	- [Arc Browser](https://arc.net/)
 	- [Homebrew Package Manager](https://brew.sh/)
 
@@ -42,8 +42,8 @@ done
 ```
 
 
-# Arc
-This script copies the configuration file in ~/.config/arc to TBD.
+# Web Browsers
+This script sets the configuration files for Arc and Safari.
 ```sh
 
 ```
