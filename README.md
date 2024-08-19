@@ -3,7 +3,8 @@ This repository is meant to add my personal configurations to a freshly installe
 The following scripts are meant to be run sequentially.
 
 
-# Manual Installations
+# Manual Configurations
+- Add the `Super+b` shortcut to "Enter Full Screen" and "Exit Full Screen in `System Settings -> Keyboard -> Keyboard Shortcuts`.
 - The first steps are to configure the default Apps in LaunchPad as well as install paid apps on the App Store.
 - Then configure Finder towards my personal taste.
 - Then install the following third-party applications.
