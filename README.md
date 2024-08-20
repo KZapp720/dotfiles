@@ -36,7 +36,7 @@ rm "$HOME/Library/Services/Workflows.zip"
 ```
 
 
-# Web Browsers
+# Arc
 This script sets the configuration files for Arc and Safari.
 ```sh
 
