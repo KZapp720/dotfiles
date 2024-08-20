@@ -15,12 +15,12 @@ The following scripts are meant to be run sequentially.
 # Installation
 This script clones this repo to the home directory and removes unnecessary files.
 ```sh
-git clone https://github.com/KZapp720/Dotfiles.git ~/temp-dotfiles
-rsync -avh --progress ~/temp-dotfiles/ ~
-rm -rf ~/temp-dotfiles
-rm -rf ~/.git
-rm ~/LICENSE
-rm ~/README.md
+git clone https://github.com/KZapp720/Dotfiles.git $HOME/temp-dotfiles
+rsync -avh --progress $HOME/temp-dotfiles/ $HOME/
+rm -rf $HOME/temp-dotfiles
+rm -rf $HOME/.git
+rm $HOME/LICENSE
+rm $HOME/README.md
 ```
 
 
