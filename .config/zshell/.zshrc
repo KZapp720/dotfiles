@@ -16,6 +16,7 @@ alias ls9="eza --tree --level=9"
 alias pip="pip3"
 alias py="python3"
 alias python="python3"
+alias tcb="pbcopy"
 alias vi="hx ."
 alias vim="hx"
 
