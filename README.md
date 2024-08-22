@@ -65,11 +65,9 @@ brew install ripgrep
 brew install rust
 brew install rust-analyzer
 brew install serpl
-brew install skhd
 brew install starship
 brew install thefuck
 brew install typst
-brew install yabai
 brew install zoxide
 brew install zsh-autosuggestions
 brew install zsh-fast-syntax-highlighting
