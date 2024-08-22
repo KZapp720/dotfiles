@@ -64,6 +64,7 @@ brew install lazygit
 brew install ripgrep
 brew install rust
 brew install rust-analyzer
+brew install serpl
 brew install starship
 brew install thefuck
 brew install typst
