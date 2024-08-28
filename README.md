@@ -15,10 +15,10 @@ The following scripts are meant to be run sequentially.
 # Installation
 This script clones this repo to the home directory and removes unnecessary files.
 ```sh
-git clone https://github.com/KZapp720/Dotfiles.git $HOME/temp-dotfiles
+git clone https://github.com/KZapp720/Dotfiles.git $HOME/temp-dotfiles/
 rsync -avh --progress $HOME/temp-dotfiles/ $HOME/
-rm -rf $HOME/temp-dotfiles
-rm -rf $HOME/.git
+rm -rf $HOME/temp-dotfiles/
+rm -rf $HOME/.git/
 rm $HOME/LICENSE
 rm $HOME/README.md
 ```
@@ -31,7 +31,7 @@ mv "$HOME/.config/automator/Workflows.zip" "$HOME/Library/Services/"
 rm -rf "$HOME/.config/automator/"
 unzip -q "$HOME/Library/Services/Workflows.zip" -d "$HOME/Library/Services/Workflows"
 mv "$HOME/Library/Services/Workflows/"*.workflow "$HOME/Library/Services/"
-rm -r "$HOME/Library/Services/Workflows"
+rm -rf "$HOME/Library/Services/Workflows/"
 rm "$HOME/Library/Services/Workflows.zip"
 ```
 
@@ -48,6 +48,7 @@ This script installs the necessary casks and formulas.
 ```sh
 brew install karabiner-elements
 brew install mactex-no-gui
+brew install nikitabobko/tap/aerospace
 brew install wezterm
 brew install zed
 
@@ -58,8 +59,6 @@ brew install gh
 brew install ghc
 brew install haskell-language-server
 brew install helix
-brew install koekeishiya/formulae/skhd
-brew install koekeishiya/formulae/yabai
 brew install lazygit
 brew install ripgrep
 brew install rust
