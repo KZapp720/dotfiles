@@ -54,6 +54,7 @@ brew install zed
 
 brew install entr
 brew install eza
+brew install felixkratz/formulae/borders
 brew install fzf
 brew install gh
 brew install ghc
