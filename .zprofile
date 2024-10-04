@@ -1,6 +1,7 @@
 export EDITOR="hx"
 export PATH="/opt/homebrew/bin:$PATH"
 export VISUAL="zed"
+export XDG_CONFIG_HOME="$HOME/.config"
 export ZDOTDIR="$HOME/.config/zshell"
 
 setopt HIST_FIND_NO_DUPS
