@@ -3,13 +3,16 @@ This repository is meant to add my personal configurations to a freshly installe
 The following scripts are meant to be run sequentially.
 
 
-# Manual Configurations
+# System Settings
 - Add the `⌘ b` shortcut to the `Enter Full Screen` and `Exit Full Screen` commands in `System Settings -> Keyboard -> Keyboard Shortcuts`.
 - Configure the default Apps in LaunchPad as well as install paid apps on the App Store.
 - Configure Finder.
 - Install the following third-party applications.
 	- [Arc Browser](https://arc.net/)
 	- [Homebrew Package Manager](https://brew.sh/)
+```sh
+
+```
 
 
 # Installation
@@ -33,13 +36,6 @@ unzip -q "$HOME/Library/Services/Workflows.zip" -d "$HOME/Library/Services/Workf
 mv "$HOME/Library/Services/Workflows/"*.workflow "$HOME/Library/Services/"
 rm -rf "$HOME/Library/Services/Workflows/"
 rm "$HOME/Library/Services/Workflows.zip"
-```
-
-
-# Arc
-This script sets the configuration files for Arc and Safari.
-```sh
-
 ```
 
 
