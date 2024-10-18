@@ -11,7 +11,7 @@ The following scripts are meant to be run sequentially.
 	- [Arc Browser](https://arc.net/)
 	- [Homebrew Package Manager](https://brew.sh/)
 ```sh
-
+defaults write com.apple.dock expose-group-apps -bool true && killall Dock
 ```
 
 
