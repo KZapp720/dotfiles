@@ -52,6 +52,7 @@ brew install nikitabobko/tap/aerospace
 brew install wezterm
 brew install zed
 
+brew install bat
 brew install entr
 brew install eza
 brew install felixkratz/formulae/borders
@@ -61,13 +62,16 @@ brew install ghc
 brew install haskell-language-server
 brew install helix
 brew install lazygit
+brew install lazysql
+brew install python
 brew install ripgrep
 brew install rust
 brew install rust-analyzer
 brew install serpl
+brew install sqlite
 brew install starship
-brew install thefuck
 brew install typst
+brew install yazi
 brew install zoxide
 brew install zsh-autosuggestions
 brew install zsh-fast-syntax-highlighting
