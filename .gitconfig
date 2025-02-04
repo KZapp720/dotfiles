@@ -2,11 +2,19 @@
 name          = Kevin Zapata
 email         = kevin.c.zapata@gmail.com
 
+
 [init]
 defaultBranch = main
 
+
 [alias]
-editcommit    = commit --amend
-recommit      = commit --amend --no-edit
 uncommit      = reset HEAD~1
+recommit      = commit --amend --no-edit
+rbi           = rebase -i --root
+lg            = log --pretty=format:' %C(bold magenta) %h       %C(bold blue) %ad       %C(bold green) %<(24,trunc)%an       %C(bold yellow) %<(120,trunc)%s' --date='format:%a %b %d %Y %I:%M %p'
+editcommit    = commit --amend
+co            = checkout
+cm            = commit 
+ac            = !git add . && git commit -m
+a             = add .
 
